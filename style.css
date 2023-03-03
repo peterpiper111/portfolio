@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .login{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: "Roboto Flex";
+    font-weight: 600;   
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 33px;
+    padding-left: 30px;
+    height: 100%;
+  }
+  .login a:hover{
+    margin: 0 9px;
+    padding: 7px 11px;
+    border-radius: 5px;
+    transition: .5s;
+  }
+  nav{
+    background: #90c6f2;
+    height: 70px;
+    width: 100%;  
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 9px;
+  }
+  nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 5px;
+    font-family: "Roboto Flex";
+    font-weight: 600;
+  }
+  a:hover{
+    background: #6179a0;
+    transition: .5s;
+  }
+   #nav2 {
+    background-color: #90c6f2;
+    overflow: hidden;
+    float: right; 
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  #nav2 a {
+    float: left;
+    color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #nav2 a:hover{
+    background: #6179a0;
+    transition: .5s;
+  }
+
+  .bgimg{
+    background-image: url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  section nav .logo img{
+    width: 150px;
+    margin: 15px 873px;
+  }
+  .name{
+    margin-left: 450px;
+    font-size: 100px;
+    font-family: 'Roboto Flex';
+    font-weight: 900;
+    line-height: 100px;
+  }
+  .nameintro{
+    margin-top: 200px;
+    margin-left: 450px;
+    line-height: 100px;
+    font-size: 30px;
+    font-family: "Roboto Flex";
+    font-weight: 500;
+  }
+ p{
+  font-size: 100px;
+ }
+ .socmedicons a{
+  display: flex;
+  font-size: 1.5rem;
+ }
+.socmedicons a .fa-brands{
+  transition: color 0.5s;
+}
+.socmedicons a:hover .fa-facebook-f{
+  color: #1950c7;
+  margin: 0 9px;
+  transition: 0.5s;
+}
+.socmedicons a:hover .fa-instagram{
+  background: #f09433;  
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  margin: 0 9px;
+  transition: 0.5s;
+}
+.socmedicons a:hover .fa-twitter{
+  color: #00acee; 
+  margin: 0 9px;
+  transition: 0.5s;
+}
+
+.bgcolor{
+  background-color:#102039 ;
+  width: 100%;
+  padding: 100px 0px;
+}
+.bgcolor img{
+  height: 330px;
+  width: 290px;
+}
+.main{
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main h1{
+  font-size: 50px;
+  font-family: 'Roboto Flex';
+  font-weight: 700;
+  line-height: 100px;
+}
